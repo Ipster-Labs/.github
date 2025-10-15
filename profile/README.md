@@ -38,10 +38,17 @@ GitHub is the source of truth for deploys.
 
 ---
 
-## Contact
-engineering@ipster.nl • support@ipster.nl  
-(c) Ipster B.V. — internal engineering organization
+<table>
+<tr>
+<td>
 
-<p align="right">
-  <img src="./Subject.png" alt="Subject" width="200" style="float: right; margin-top: 20px;">
-</p>
+## Contact  
+engineering@ipster.nl • support@ipster.nl  
+(c) Ipster B.V. — internal engineering organization  
+
+</td>
+<td align="right" width="200">
+  <img src="./Subject.png" alt="Subject" width="160">
+</td>
+</tr>
+</table>
