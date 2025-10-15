@@ -34,7 +34,6 @@ GitHub is the source of truth for deploys.
 ## Links
 - Website: https://ipster.nl/
 - Dashboard: https://dashboard.ipster.nl/
-- Changelog: https://ipster.nl/changelog
 
 ---
 
@@ -43,7 +42,7 @@ GitHub is the source of truth for deploys.
 <td>
 
 ## Contact  
-engineering@ipster.nl • support@ipster.nl  
+support@ipster.nl  
 (c) Ipster B.V. — internal engineering organization  
 
 </td>
