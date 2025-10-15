@@ -23,39 +23,6 @@ GitHub is the source of truth for deploys.
 
 ---
 
-## Repository conventions
-**Folder layout per repo**
-
-```
-supabase/
-  functions/
-    <group>/<name>/index.ts   # nested locally for clarity
-```
-
-**Flattened function names**
-- The deploy pipeline flattens folders: `bedrijf1/functie1` -> `bedrijf1_functie1`
-- Ensures unique names in Supabase's flat namespace
-
-**Secrets**
-- The Supabase CLI uses a Personal Access Token that starts with `sbp_...` and is stored as a repository secret.
-- Example secret name: `SUPABASE_ACCESS_TOKEN_ACCOUNT_BRUNO`
-
-**Branches**
-- `main` is protected and deploys changed functions only
-- Feature branches go through PRs with checks
-
----
-
-## CI/CD overview
-On push to `main`, CI:
-1. Detects changed folders under `supabase/functions/**`
-2. Flattens the folder path to a function name
-3. Deploys only those functions to project `hhdxfkkanoqxqqzhrbkm`
-
-Database schema migrations can live alongside functions (GitOps style) if needed.
-
----
-
 ## Getting started (internal)
 1. Join the org and request access to the needed repositories
 2. Clone a repo and open Codespaces or a local devcontainer
