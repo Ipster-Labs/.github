@@ -23,14 +23,6 @@ GitHub is the source of truth for deploys.
 
 ---
 
-## Getting started (internal)
-1. Join the org and request access to the needed repositories
-2. Clone a repo and open Codespaces or a local devcontainer
-3. Add a function under `supabase/functions/<group>/<name>/index.ts`
-4. Commit and open a PR; after merge to `main` the CI deploys that function
-
----
-
 ## Links
 - Website: https://ipster.nl/
 - Dashboard: https://dashboard.ipster.nl/
