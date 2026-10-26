@@ -25,15 +25,9 @@ This organization page describes the engineering behind that: the platform that 
 | **[ipster-skills](https://github.com/Ipster-Labs/ipster-skills)** | Organisation-wide Claude.ai skills — source of truth for the AI tooling the team builds all of the above with. |
 | **[klant-data](https://github.com/Ipster-Labs/klant-data)** | Knowledge bank per client: wikis, raw sources, flow diagrams — what each agent is supposed to do and why. |
 
-Client- and integration-specific repos sit on top of this, wiring individual clients' CRMs, ticketing systems, and telephony into their agent: **[storageshare-agent](https://github.com/Ipster-Labs/storageshare-agent)**, **[agent-call-logs](https://github.com/Ipster-Labs/agent-call-logs)**, **[profile-gaston-mcp](https://github.com/Ipster-Labs/profile-gaston-mcp)**.
+Client-specific repos sit on top of this, wiring individual clients' CRMs, ticketing systems, and telephony into their agent.
 
 GitHub is the source of truth for deploys.
-
----
-
-## Also here — internal R&D
-
-A few projects support the platform without being the product themselves: **[Ipster-Analyzer](https://github.com/Ipster-Labs/Ipster-Analyzer)** turns recorded calls into searchable, analyzed data (running on our own DGX Spark hardware); **[tas-ipster-dashboard](https://github.com/Ipster-Labs/tas-ipster-dashboard)** turns a client's protocol documents into version-controlled prompts served per phone number. For the full technical picture of these, see [`overdrachtdocument`](https://github.com/Ipster-Labs/overdrachtdocument) (snapshot as of 28 August 2026).
 
 ---
 
